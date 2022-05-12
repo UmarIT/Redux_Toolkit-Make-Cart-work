@@ -57,7 +57,7 @@ if (status === STATUSES.ERROR) {
           fontSize:17,
           fontWeight:'bold'
         }}
-        > Cart items: {SelectedItem.length}</Text>
+        > Cart items: {SelectedItem.cartItems.length}</Text>
         </View>
       
       <Button
